@@ -7,3 +7,5 @@ var a = 4
 let b = 4
 console.log(a)
 console.log(typeof(a))
+
+//css selectors product:visible show only visible elements
