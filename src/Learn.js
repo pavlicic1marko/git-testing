@@ -5,7 +5,10 @@ console.log("Hello World")
 
 var a = 4
 let b = 4
-console.log(a)
+var ab = 1
+var ab = a + b
+console.log(ab)
 console.log(typeof(a))
+console.log(!true)
 
 //css selectors product:visible show only visible elements
