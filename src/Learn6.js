@@ -1,4 +1,4 @@
-class person{
+module.exports = class person{
     age = 25
 
     get location(){
@@ -11,14 +11,8 @@ class person{
     }
 
     fullName(){
-        return this.firstName + this.lastName
+        return this.firstName + " " + this.lastName
     }
 }
 
-let person1 = new person("marko","pa")
-console.log(person1.age)
-console.log(person1.location)
-console.log(person1.firstName, person1.lastName)
-var person1FullName =person1.fullName()
-console.log(person1FullName)
 
