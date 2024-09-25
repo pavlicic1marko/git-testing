@@ -11,6 +11,6 @@ class Pet extends Person
         super(firstName,lastName)
     }
 }
-
+//commit A
 let pet = new Pet("rex","dark")
 console.log(pet.location, pet.fullName())
