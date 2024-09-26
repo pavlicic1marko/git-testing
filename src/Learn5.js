@@ -1,6 +1,6 @@
 //object is a collection of properties
 let person = {
-    firstName:"marko",
+    firstName:"goran",
     lastName:"Postojic",
     age:24,
     fullName: function() {
