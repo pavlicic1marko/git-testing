@@ -6,6 +6,6 @@ marks.push(222222) //add at the end
 marks.unshift(-11111)
 marks.pop()
 console.log(marks,marks1, marks1[0], marks.length)
-console.log("position is:",marks.indexOf(-11111))
+console.log("position iss:",marks.indexOf(-11111))
 console.log(marks.slice(2,5))
 console.log("marks include:",marks.includes(10))
