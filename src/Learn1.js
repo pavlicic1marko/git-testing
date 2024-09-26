@@ -19,10 +19,9 @@ while(i < 10)
 
 for(let k=22; k<=33; k++)
 {
-    if(k%2==0 || k%4 ==0){ //edit 4
-        console.log("is eaven and mod of 4") //edit line value 4
+    if(k%2==0 || k%5 ==0){ //edit 5
+        console.log("is eaven and mod of 5") //edit line value 5
         console.log("break now")
-        //testing merge collisions
         break
     }
     console.log(k)
