@@ -1,5 +1,10 @@
 const Person = require('./Learn6')
-var person1 = new Person("jhon","merge01")
-var person2 = new Person("merge01","whick")
-//merge 001 do not use this line
+var person1 = new Person("jhon","merge0102")
+var person2 = new Person("merge0102","whick")
+var person3 = new Person("jhon02","whick02")
+
+console.log(person1.fullName())
+console.log(person2.fullName())
+console.log(person3.fullName())
+
 ///bla bla-change
