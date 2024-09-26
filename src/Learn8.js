@@ -3,7 +3,7 @@ class Pet extends Person
 {
     get location()
     {
-        return "blue Crosss" //BE0001
+        return "red Crosss" //BE0001
     }
     constructor(firstName,lastName)
     {
